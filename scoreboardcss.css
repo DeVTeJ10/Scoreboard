@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid #160f29;
+    padding-bottom: 60px;
+    font-size: 40px;
+    color: #fbff12;
+    text-align: center;
+    width: 600px;
+    height: 300p;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px black;
+    background-color: #7678ed;
+}
+.home{
+    color: #ef476f;
+}
+
+.square1{
+    width: 155px;
+    height: 120px;
+    background: #F94F6D;
+    margin-top: -200px;
+    margin-left: 1px;
+    border-radius: 10px;
+    box-shadow: -2px 2px #000000;
+}
+.square2{
+    width: 155px;
+    height: 120px;
+    background: #fbff12;
+    margin-top: -200px;
+    margin-left: 1px;
+    border-radius: 10px; 
+    box-shadow: 2px 2px #000000;
+}
+#home-scores{
+    font-size: 90px;
+    font-family: Cursed Timer ULiL;
+    color: #000000;
+    
+}
+#away-scores{
+    font-size: 90px;
+    font-family: Cursed Timer ULiL;
+    color: #000000;
+}
+.away-buttons{
+    border-radius: 5px;
+    background: #fbff12;
+    color: black;
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: Cursed Timer ULiL;
+    box-shadow: 1px 1px  black;
+    
+}
+.home-buttons{
+    border-radius: 5px;
+    background: #F94F6D;
+    color: black;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: Cursed Timer ULiL;
+    box-shadow: -1px 1px  black;
+}
+.aquatic{
+    margin-top: -27px;
+}
+.aquatic2{
+    margin-top: -27px;
+}
+#new-game{
+    display: flex;
+    margin: auto;
+    margin-top: -70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #90caf9;
+    box-shadow: 1px -1px  black;
+    font-family: Cursed Timer ULiL;
+    font-size: larger;
+}

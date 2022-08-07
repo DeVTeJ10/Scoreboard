@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scoreboardcss.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Home team">
+            <h3 class="home">HOME</h3>
+            <div class="aquatic">
+            <h3 id="home-scores">0</h3>
+            <div class="square1">
+            </div>
+            </div>
+        <div class="Home-buttons">
+            <button class="home-buttons" onclick="add1()"><b>+1</b></button>
+            <button class="home-buttons" onclick="add2()"><b>+2</b></button>
+            <button class="home-buttons" onclick="add3()"><b>+3</b></button>
+            </div>
+        </div>
+        
+        <div class="Guest team">
+            <h3>GUEST</h3>
+            <div class="aquatic2">
+                <h3 id="away-scores">0</h3>
+                <div class="square2">
+                </div>
+            </div>
+            <button  class="away-buttons" onclick="add1a()"><b>+1</b></button>
+            <button  class="away-buttons" onclick="add2a()"><b>+2</b></button>
+            <button  class="away-buttons" onclick="add3a()"><b>+3</b></button>
+            </div>
+        </div>
+        <button id="new-game" onclick="newgame()"><b>NEW GAME</b></button>
+    </div>
+    <script src="scoreboardjavascript.js"></script>
+</body>
+</html>
